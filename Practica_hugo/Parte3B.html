@@ -1,0 +1,78 @@
+<html>
+<head>
+<title>  Parte dos  </title>
+</head>
+
+<script language="JavaScript" type="text/JavaScript" class="fecha">
+            var LaFecha = new Date();
+            var Mes = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+            var diasem = new Array('Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado');
+            var diasemana = LaFecha.getDay();
+            var FechaCompleta = "";
+            var NumeroDeMes = "";
+            var hora = LaFecha.getHours()
+            var minuto = LaFecha.getMinutes()
+            var segundo = LaFecha.getSeconds()
+
+            NumeroDeMes = LaFecha.getMonth();
+            FechaCompleta = diasem[diasemana] + " " + LaFecha.getDate() + " de " + Mes[NumeroDeMes] + " de " + LaFecha.getFullYear() + " " + hora + ":" + minuto + ":" + segundo;
+            document.write(FechaCompleta);
+        </script>
+
+<body style="vertical-align:top; background-color:rgb(253, 253, 253);" >
+
+  
+<table style= "text-align:left; width:100%; margin-left:auto; margin-rignt:auto;" border="3" cellpadding="2" cellspacing="2">
+<caption><span style= "font-weight:bold;">D  A  T  O  S     E S C O L A R E S </span><br> </caption> <tbody>
+ </table>
+<br />
+        <br />
+<table style="text-align:left; width:100%; margin-left:auto; margin-rignt:auto;"
+       border="3" cellpadding="2" cellspacing="2">
+</table>
+
+<center> <img src="1.jpg" width="200px" height="150px" />
+    </th>
+</center>
+
+</tr>
+
+
+       <center>
+        <br />
+        
+         <b>Jefe de Division:Nestor Monroy Mendez</b>
+        <br />
+        <br />
+        <b>Edificio: "J"</b>
+        <br />
+        <br />
+        <b>Tutor: Hugo Montes de Oca Martinez</b>
+        <br />
+        <br />
+        <b>Horario:10:00am a 14:00pm</b>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <b>Turno:vespertino</b>
+        <br />
+        <br />
+        <b>Matricula: 15090161</b>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; <b>Tel.Escuela:82886754</b>      
+        <br />
+        <br />
+        <b>Sexo: Femenino</b>&nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<b>Direccion de lbarrio a escuela: Paraje el rio s/n la magdalena chichicaspa</b>  
+        <br />
+        <br />  
+
+        <CENTER>
+
+            </button>
+
+            <button style="text-align:left; width:10%; margin-left:0%; margin-right:0%;" <input type="text" name="imprimir"  value="imprimir!" onclick="javascript: window.print()">  IMPRIMIR </button>
+
+           
+
+        </CENTER>
+      
+        </CENTER>
+
+    
+
+</body>
+</html>

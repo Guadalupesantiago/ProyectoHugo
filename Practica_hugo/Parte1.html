@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Curriculum  </title>
+
+    <script language="javascript">
+        function guardarcomo() {
+            var WebBrowser = '<OBJECT ID="WebBrowser1" WIDTH=0 HEIGHT=0 CLASSID="CLSID:8856F961-340A-11D0-A96B-00C04FD705A2"></OBJECT>';
+            document.body.insertAdjacentHTML('beforeEnd', WebBrowser);
+            WebBrowser1.ExecWB(4, 2);
+            WebBrowser1.outerHTML = "";
+        }
+    </script>
+     </script>
+        </tr>
+        <script language="JavaScript" type="text/JavaScript" class="fecha">
+            var LaFecha = new Date();
+            var Mes = new Array("Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre");
+            var diasem = new Array('Domingo', 'Lunes', 'Martes', 'Miercoles', 'Jueves', 'Viernes', 'Sabado');
+            var diasemana = LaFecha.getDay();
+            var FechaCompleta = "";
+            var NumeroDeMes = "";
+            var hora = LaFecha.getHours()
+            var minuto = LaFecha.getMinutes()
+            var segundo = LaFecha.getSeconds()
+
+            NumeroDeMes = LaFecha.getMonth();
+            FechaCompleta = diasem[diasemana] + " " + LaFecha.getDate() + " de " + Mes[NumeroDeMes] + " de " + LaFecha.getFullYear() + " " + hora + ":" + minuto + ":" + segundo;
+            document.write(FechaCompleta);
+        </script>
+
+
+
+</head>
+<body  bgcolor="#EE82EE">
+
+   
+
+    <table style="text-align:left; width:50%; margin-left:auto; margin-right:auto;" border="1" cellpadding="1" cellspacing="1">
+        <th colspan="1" rowspan="1">
+    <br />
+
+    <center> <h2>"Curriculum"<br></h2> </center>
+
+    <center>
+        <br />
+        <tb>  
+        Nombre Completo<input name="carrera" type="text" style="text-align:left; width:40%; margin-left:0%; margin-right:0%;"></tb>
+        <br />
+        <br />
+        <tb>
+            Fecha de nacimiento<input name="semestre" type="text" style="text-align:left; width:30%; margin-left:0%; margin-right:0%;" />
+            <br>
+            <br>
+     Carrera<input name="matricula" type="text" style="text-align:left; width:50%; margin-left:0%; margin-right:0%;" />
+            <br>
+            <br>
+            Edad<input name="fecha" type="text" style="text-align:left; width:10%; margin-left:0%; margin-right:0%;" />
+        </tb>
+       
+        <br>
+        <br>
+        Direccion<input name="Caja" type="text" style="text-align:left; width:20%; margin-left:0%; margin-right:0%;" />
+        <br>
+        <br>
+    Telefono</b><input name="Precio Unidad type="text" style="text-align:left; width:20%; margin-left:0%; margin-right:0%;"></tb>
+
+        <br>
+        <br>
+
+        
+                        <a href="https://www.google.com/search?q=google&oq=google&aqs=chrome..69i57j69i60l3j69i65l2.698j0j7&sourceid=chrome&ie=UTF-8" class="to_register"> Siguiente </a>
+       
+</table>
+</body>
+</html>
